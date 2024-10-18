@@ -22,6 +22,7 @@ database_id = "cf04bc18-8304-4204-b0aa-e8207d376dd2"
 # [ai]
 # binding = "AI"
 
-# [observability]
-# enabled = true
-# head_sampling_rate = 1
+# wrangler.toml (wrangler v3.79.0^)
+[observability]
+enabled = true
+head_sampling_rate = 1
