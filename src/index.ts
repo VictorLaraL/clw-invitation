@@ -8,6 +8,7 @@ const mainApp = new Hono<{Bindings: Env}>()
 
 mainApp.get('/', (c) => {
   return c.json({
+      "hello": "world",
       "var": c.env.MY_VAR
   })
 })
